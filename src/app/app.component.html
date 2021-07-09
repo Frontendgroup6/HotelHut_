@@ -1,0 +1,29 @@
+<body>
+<nav class="navbar shadow  navbar-expand-sm navbar-light">
+  <div class="navbar-brand">
+    <a class="icon text-decoration-none" href="#">
+      <img style="display: inline;" class="iconimg" src="./assets/img/logo7.png" alt="">
+      <h4 style="display: inline;">Hotel Hut</h4>
+    </a>
+  </div>
+  <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto px-4">
+      <li class="nav-item px-1"><a class="nav-link" routerLink="home" routerLinkActive="active">Home</a></li>
+      <li class="nav-item px-1"><a class="nav-link" routerLink="places" routerLinkActive="active">Places</a></li>
+      <li class="nav-item px-1"><a class="nav-link" routerLink="blog" routerLinkActive="active">Blog</a></li>
+      <li class="nav-item px-1"><a class="nav-link" routerLink="contactus" routerLinkActive="active">Contact us</a></li>
+      <li class="nav-item px-1"><a class="nav-link"  routerLink="signup" routerLinkActive="active">Sign up</a></li>
+      <li class="nav-item px-1"><a class="nav-link " routerLink="signin" routerLinkActive="active">Sign in</a></li>
+  </ul>
+</div>
+</nav>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+</body>

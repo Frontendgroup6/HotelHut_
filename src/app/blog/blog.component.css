@@ -1,0 +1,219 @@
+h6{
+  font-family: 'Cinzel', serif;
+  color: 	#ac5089;
+}
+h5{
+font-family:  'Cinzel', serif;
+color: #74356e;
+display: inline;
+}
+h2{
+color: #74356e;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+color: #580f51;
+font-family: 'Cinzel', serif;
+}
+.link:hover{
+text-decoration: underline;
+}
+.hotel{
+background-color: #f9ebff;
+}
+.world{
+color: #74356e;
+font-family: 'Cinzel', serif;
+}
+.set1{
+background-color: #f9ebff;
+}
+.slide-right {
+-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.parallelogram {
+width: 700px;
+height: 50px;
+transform: skew(30deg);
+background: #74356e;
+}
+.parallelogram3 {
+width: 500px;
+height: 10px;
+transform: skew(30deg);
+background: #74356e;
+}
+.triangle-bottomleft {
+width: 0;
+height: 0;
+border-bottom: 100px solid #74356e;
+border-right: 100px solid transparent;
+}
+.image{
+background-image: url(https://images.pexels.com/photos/3049437/pexels-photo-3049437.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 100px;
+}
+
+
+/* LARGE SCREEN */
+@media screen and (max-width:1500px) {
+.text1{
+  width: 100%;
+}
+.text2{
+  width: 50%;
+}
+.text3{
+  width: 75%;
+}
+.image1{
+  width: 75%;
+}
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #74356e;
+  border-right: 100px solid transparent;
+  margin-top: 8%;
+  margin-left: 30%;
+}
+.parallelogram3 {
+  width: 500px;
+  height: 10px;
+  transform: skew(30deg);
+  background: #74356e;
+}
+.inourway{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.tri{
+  margin-top: 10%;
+}
+.world{
+  margin-top: 8%;
+}
+.parallelogram3 {
+  width: 500px;
+  height: 10px;
+  transform: skew(30deg);
+  background: #74356e;
+}
+.reserve{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.makeroom{
+  margin-left: 6%;
+  margin-right: 4%;
+  margin-top: 4%;
+}
+.parallelogram2 {
+    width: 500px;
+    height: 10px;
+    transform: skew(30deg);
+    background: #74356e;
+    margin-top: 10%;
+}
+.footerimg{
+  display: inline;
+  width: 70px;
+}
+.footer{
+  margin-left: 8%;
+}
+.footerlinks{
+  display: inline;
+  margin: 1% 4%;
+}
+.link{
+  text-decoration: none;
+  padding: 0% 5%;
+}
+h5{
+  font-family:  'Cinzel', serif;
+  color: #74356e;
+  display: inline;
+  padding: 5% 1%;
+}
+}
+
+
+/* SMALL SCREEN */
+@media screen and (max-width:700px) {
+.text2,.text3,.image1{
+  width: 100%;
+}
+.text1{
+  width: 90%;
+  padding-left: 5%;
+}
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 0px solid #9e939d;
+  border-right: 0px solid transparent;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+.parallelogram3 {
+  width: 300px;
+  height: 10px;
+  transform: skew(30deg);
+  background: #74356e;
+}
+.inourway{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.tri{
+  margin-top: 0%;
+}
+.world{
+  margin-top: 1%;
+}
+.parallelogram3 {
+  width: 225px;
+  height: 10px;
+  transform: skew(30deg);
+  background: #74356e;
+}
+.reserve{
+  padding-left: 1%;
+  padding-right: 1%;
+  color: white;
+}
+.makeroom{
+  margin-left: 6%;
+  margin-right: 4%;
+}
+.parallelogram2 {
+  width: 500px;
+  height: 10px;
+  transform: skew(30deg);
+  background: #74356e;
+  margin-top: 5%;
+}
+.footerimg{
+  width: 40px;
+}
+.footer{
+  margin: 0%;
+}
+.footerlinks{
+  display: block;
+}
+.link{
+  text-decoration: none;
+  display: block;
+}
+h5{
+  font-family:  'Cinzel', serif;
+  color: #74356e;
+  display: inline;
+}
+}

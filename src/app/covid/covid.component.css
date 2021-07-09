@@ -1,0 +1,18 @@
+@media screen and (max-width:1500px) {
+    .card{
+        width: 75%;
+    }
+    img{
+      width: 90px;
+      margin: 1%;
+      float: right;
+    }
+  }
+@media screen and (max-width:700px) {
+    .card{
+        width: 100%;
+    }
+    img{
+      width: 0px;
+    }
+  }

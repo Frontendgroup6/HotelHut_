@@ -1,0 +1,49 @@
+.top{
+    position: absolute;
+    top: 17%;
+    right: 12%;
+}
+.top2{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+.cimg{
+  border-radius: 20px;
+}
+h1{
+    font-family: 'Clicker Script', cursive;
+    font-size: 100px;
+}
+h4{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    width: 75%;
+    font-weight: bold;
+}
+.slide-bottom {
+	-webkit-animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  
